@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/5906898117.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Books App</title>
+</head>
+<body>
+		<header>
+			<label for="menuToggle" class="menu-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<div class="logo">
+				<span class="fa fa-book" aria-hidden="true"></span>
+				MyBookApp
+			</div>
+			<div class="account">
+				<a href="#"><span>Help Center</span></a>
+				<span></span>
+				<a href="#"><span>Our Support</span></a>
+				<div class="user">
+					<img src="img/avatar.jpg" alt="User Avatar">
+					<div>Max White</div>	
+
+					<input id="userMenuToggle" type="checkbox">
+						<div class="user-menu">
+							<ul>
+								<a href="#"><li>Account</li></a>
+								<a href="#"><li>Settings</li></a>
+								<a href="#"><li>Sign out</li></a>
+							</ul>
+						</div>
+					<label for="userMenuToggle">
+						<span class="fa fa-arrow-circle-down" aria-hidden="true"></span>
+					</label>
+				</div>
+			</div>
+		</header>
+		<section class="wrapper">
+			<input id="menuToggle" type="checkbox">
+			<aside>
+				<button><span class="fa fa-plus" aria-hidden="true"></span>Add A Book</button>
+				<nav class="sidebar-menu">
+					<ul>
+						<a href="#"><li><span class="fa fa-book" aria-hidden="true"></span>Now Reading</li></a>
+						<a href="#"><li><span class="fa fa-globe" aria-hidden="true"></span>Browse</li></a>
+						<a href="#"><li><span class="fa fa-shopping-cart" aria-hidden="true"></span>Buy Books</li></a>
+						<a href="#"><li><span class="fa fa-star" aria-hidden="true"></span>Favourite Books</li></a>
+						<a href="#"><li><span class="fa fa-th-list" aria-hidden="true"></span>Wishlist</li></a>
+						<a href="#"><li><span class="fa fa-history" aria-hidden="true"></span>History</li></a>
+					</ul>
+				</nav>
+				<nav class="sidebar-list">
+					<ul>
+						<a href="#"><li><span></span>Must Read Titles</li></a>
+						<a href="#"><li><span></span>Best Of List</li></a>
+						<a href="#"><li><span></span>Classic Novels</li></a>
+						<a href="#"><li><span></span>Non Fiction</li></a>
+					</ul>
+				</nav>
+				<div class="notification">
+					<div>
+						<span class="fa fa-history" aria-hidden="true"></span>
+						<div>
+							You added <b>Fight Club</b> by <b>Chuck Palahniuk</b> to your <b>Must Read Titles</b>.
+							<p>24 minutes ago</p>
+						</div>
+					</div>
+					<div>
+						<span class="fa fa-history" aria-hidden="true"></span>
+						<div>
+							You added <b>The Trial</b> by <b>Franz Kafka</b> to your <b>Must Read Titles</b>.
+							<p>	48 minutes ago</p>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<section>
+				<h1>Browse Available Books</h1>
+				<div class="submenu">
+					<nav>
+						<ul>
+							<a href="#"><li>All Books</li></a>
+							<a href="#"><li>Most Recent</li></a>
+							<a href="#"><li>Most Popular</li></a>
+							<a href="#"><li>Free Books</li></a>
+						</ul>
+					</nav>
+					<p>
+						<input type="text" placeholder="Enter Keywords">
+						<span class="fa fa-search" aria-hidden="true"></span>
+					</p>
+				</div>
+			</section>
+			<main>
+				
+				<div class="card">
+					<img src="img/book-cover1.jpg" alt="Book Cover">
+					<p class="book-name">Jewels of Nizam</p>
+					<p class="book-author">by Geeta Devi</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover2.jpg" alt="Book Cover">
+					<p class="book-name">Cakes & Bakes</p>
+					<p class="book-author">by Sanjeev Kapoor</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover3.jpg" alt="Book Cover">
+					<p class="book-name">Jamie’s Kitchen</p>
+					<p class="book-author">by Jamie Oliver</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-half-o" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover4.jpg" alt="Book Cover">
+					<p class="book-name">Inexpensive Family Meals</p>
+					<p class="book-author">by Simon Holst</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover5.jpg" alt="Book Cover">
+					<p class="book-name">Paleo Slow Cooking</p>
+					<p class="book-author">by Chrissy Gower</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover6.jpg" alt="Book Cover">
+					<p class="book-name">Cook Like an Italian</p>
+					<p class="book-author">by Tobie Puttock</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-half-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover7.jpg" alt="Book Cover">
+					<p class="book-name">Suneeta Vaswani</p>
+					<p class="book-author">by Geeta Devi</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-half-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover8.jpg" alt="Book Cover">
+					<p class="book-name">Jamie Does</p>
+					<p class="book-author">by Jamie Oliver</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover9.jpg" alt="Book Cover">
+					<p class="book-name">Jamie's Italy</p>
+					<p class="book-author">by Jamie Oliver</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-half-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+				<div class="card">
+					<img src="img/book-cover10.jpg" alt="Book Cover">
+					<p class="book-name">Vegetables Cookbook</p>
+					<p class="book-author">by Matthew Biggs</p>
+					<p class="book-rating">
+						<ul>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star" aria-hidden="true"></span></li>
+							<li><span class="fa fa-star-o" aria-hidden="true"></span></li>
+						</ul>
+					</p>
+				</div>
+			</main>
+		</section>
+		<footer>
+			<button class="fa fa-question-circle" aria-hidden="true"></button>
+			<button class="fa fa-cog" aria-hidden="true"></button>
+		</footer>
+
+</body>
+</html>
