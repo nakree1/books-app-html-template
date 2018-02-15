@@ -89,6 +89,7 @@ header {
 #menuToggle {
 	display: none;
 }
+
 .menu-btn{
 		display: flex;
 		flex-direction: row;
@@ -221,6 +222,7 @@ header {
 #userMenuToggle {
 	display:none;
 }
+
 #userMenuToggle:checked + label{
 		animation-name: rotate;
 		animation-duration: 0.5s;
@@ -229,39 +231,35 @@ header {
 		animation-iteration-count: 1;
 		animation-direction: normal;
 		animation-fill-mode: none;
-	}
+}
+
 #userMenuToggle:checked + .user-menu{
-					display: flex;
-					align-items: center;
-					
-					flex-direction: column;
-					z-index: 10;
-					position: absolute;
-					top: 45px;
-					left: -6px;
-					background-color: white;
-					width:100%;
-
-					
-
-				}
+	display: flex;
+	align-items: center;			
+	flex-direction: column;
+	z-index: 10;
+	position: absolute;
+	top: 45px;
+	left: -6px;
+	background-color: white;
+	width:100%;
+}
 
 // --- Main Part --- //
 
 
 #menuToggle:checked + aside{
-		display:grid;
+		display: grid;
 
 		@media screen and (max-width: 700px) {
 				position:absolute;
 				z-index: 10;
 				opacity: 0.97;
-
 			}
 	}
 
 .wrapper {
-	background-color: $silver;
+	background-color: white;
 	height: 100%;
 	display: grid;
 	grid-template-columns: fit-content(200px) 1fr;
@@ -269,8 +267,6 @@ header {
 	
 
 	aside {
-		//display:none;
-		//min-width: 200px;
 		display: none;
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(4, max-content);
