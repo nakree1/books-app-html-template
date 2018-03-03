@@ -37,14 +37,6 @@ $sb-gap: 2rem;
 }
 
 
-
-
-
-//max-width 530px
-// * {
-// 	border: 1px solid red;
-// }
-
 h1, ul, li, p {
 	margin: 0;
 	padding: 0;
@@ -281,6 +273,7 @@ header {
 		animation-iteration-count: 1;
 		animation-direction: normal;
 		animation-fill-mode: none;
+
 
 		button {
 			&:hover {
